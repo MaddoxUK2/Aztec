@@ -2,10 +2,11 @@
 layout: default
 ---
 <div class="maincontainer">
+	<div class="centercontainer">
 
-	<div class="about">Blog</div>
-	
-	<div class="posts">
+		<div class="about">Blog</div>
+		
+		<div class="posts">
 			<ul>
 				{% for post in site.posts limit:5 %}
 		    	<li>
@@ -15,4 +16,5 @@ layout: default
 		 	 {% endfor %}
 			</ul>
 		</div>
+	</div>
 </div>
