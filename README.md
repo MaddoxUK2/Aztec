@@ -1,2 +1,0 @@
-# Aztec.github.io
-Aztec
