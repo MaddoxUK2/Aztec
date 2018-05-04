@@ -193,6 +193,11 @@ table {
   background-color: #fb9e24;
 
 }
+.wrapper>a>img {
+  display: block;
+  margin: auto;
+}
+
 
 .site-title {
   font-size: 26px;
@@ -219,7 +224,7 @@ table {
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
-      top: 150px;
+      top: 125px;
       right: 15px;
       background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
@@ -255,7 +260,15 @@ table {
         padding: 5px 10px;
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } 
+          margin-right: 0; }
+
+    .wrapper>a>img {
+      height: 150px;
+      width: 300px;
+    }
+    .site-header {
+      min-height: 170px;
+    }
 
   }
 
